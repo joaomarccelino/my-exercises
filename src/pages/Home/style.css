@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.group-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.group-menu a {
+  font-size: 3rem;
+  padding: 20px;
+  color: #151515;
+  background-color: yellow;
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}

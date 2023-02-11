@@ -1,0 +1,73 @@
+.exercises-area h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.back-btn {
+  color: #Faff00;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #151515;
+  border-radius: 8px;
+}
+
+.exercise {
+  margin: 0 auto;
+  max-width: 300px;
+  text-align: center;
+  background-color: #151515;
+  padding: 10px 60px 10px 60px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.exercise label {
+  display: block;
+  font-size: 1.25rem;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.exercise input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.exercise h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.exercise h2 a {
+  color: #Faff00;
+}
+
+.exercise p {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.exercise-info {
+  text-align: start;
+}
+
+.end-btn {
+  border: none;
+  background-color: #Faff00;
+  color: #151515;
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border: 1px solid;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.end-btn:hover {
+  opacity: 0.8;
+}

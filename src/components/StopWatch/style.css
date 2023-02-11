@@ -1,0 +1,12 @@
+.stop-watch h2 {
+  color: greenyellow;
+}
+
+.completed-series {
+  text-align: center;
+}
+
+.completed-series span {
+  color: greenyellow;
+  font-weight: bolder;
+}
