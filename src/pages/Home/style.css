@@ -12,9 +12,10 @@
 }
 
 .group-menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
 }
 
 .group-menu a {

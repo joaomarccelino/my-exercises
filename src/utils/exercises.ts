@@ -1,251 +1,140 @@
 export const groupA = [
   {
     exercise: "Supino Reto Livre",
-    series: 3,
-    repetitions: 15,
+    series: 4,
+    repetitions: '10-12',
     muscle: "Peitoral"
   },
   {
     exercise: "Supino Hummer",
-    series: 3,
-    repetitions: 15,
+    series: 4,
+    repetitions: '8-10',
     muscle: "Peitoral"
   },
   {
-    exercise: "Fly",
-    series: 3,
-    repetitions: 15,
+    exercise: "Fly polia alta",
+    series: 4,
+    repetitions: '10-15',
     muscle: "Peitoral"
   },
   {
-    exercise: "Crucifixo Inclinado",
+    exercise: "Elevação Lateral halter",
+    series: 5,
+    repetitions: '10-12',
+    muscle: "Ombros"
+  },
+  {
+    exercise: "Elevação Uni Polia",
     series: 3,
-    repetitions: 15,
-    muscle: "Peitoral"
+    repetitions: '10-12',
+    muscle: "Ombros"
   },
   {
     exercise: "Desenvolvimento Máquina",
     series: 4,
-    repetitions: 10,
+    repetitions: '8-12',
     muscle: "Ombros"
   },
   {
-    exercise: "Elevação Lateral",
+    exercise: "Triceps Corda",
     series: 4,
-    repetitions: 10,
-    muscle: "Ombros"
+    repetitions: '8-12',
+    muscle: "Triceps"
   },
   {
-    exercise: "Elevação Frontal",
-    series: 4,
-    repetitions: 10,
-    muscle: "Ombros"
-  },
-  {
-    exercise: "Remada alta barra",
-    series: 4,
-    repetitions: 10,
-    muscle: "Ombros"
-  },
-  {
-    exercise: "Desenvolvimento Arnold",
-    series: 4,
-    repetitions: 10,
-    muscle: "Ombros"
-  },
+    exercise: "Triceps francês polia",
+    series: 5,
+    repetitions: '8-12',
+    muscle: "Triceps"
+  }
 ]
 
 export const groupB = [
   {
-    exercise: "Agachamento livre",
+    exercise: "Remada curvada barra",
+    series: 4,
+    repetitions: '10-15',
+    muscle: "Dorsais"
+  },
+  {
+    exercise: "Remada polia baixa",
+    series: 4,
+    repetitions: '10-15',
+    muscle: "Dorsais"
+  },
+  {
+    exercise: "Puxada alta maq",
+    series: 5,
+    repetitions: '10-15',
+    muscle: "Dorsais"
+  },
+  {
+    exercise: "Rosca concentrada",
+    series: 4,
+    repetitions: '8-10',
+    muscle: "Biceps"
+  },
+  {
+    exercise: "Rosca barra reta",
     series: 3,
-    repetitions: 15,
+    repetitions: '15-20',
+    muscle: "Biceps"
+  },
+  {
+    exercise: "Rosca polia uni aranha",
+    series: 4,
+    repetitions: '8-12',
+    muscle: "Biceps"
+  },
+  {
+    exercise: "Fly invertido",
+    series: 4,
+    repetitions: '10-12',
+    muscle: "Dorsais"
+  }
+]
+
+export const groupC = [
+   {
+    exercise: "Leg press",
+    series: 4,
+    repetitions: '10-12',
     muscle: "Membros inferiores"
   },
   {
-    exercise: "Leg press",
-    series: 3,
-    repetitions: 15,
+    exercise: "Agachamento livre",
+    series: 4,
+    repetitions: '10-12',
+    muscle: "Membros inferiores"
+  },
+  {
+    exercise: "Cadeira extensora",
+    series: 5,
+    repetitions: '15-20',
     muscle: "Membros inferiores"
   },
   {
     exercise: "Flexora deitada",
-    series: 3,
-    repetitions: 15,
+    series: 5,
+    repetitions: '15-20',
     muscle: "Membros inferiores"
   },
   {
-    exercise: "Flexora pé",
-    series: 3,
-    repetitions: 15,
-    muscle: "Membros inferiores"
-  },
-  {
-    exercise: "Adutora",
-    series: 3,
-    repetitions: 15,
+    exercise: "Stiff",
+    series: 4,
+    repetitions: '10-12',
     muscle: "Membros inferiores"
   },
   {
     exercise: "Abdutora",
     series: 3,
-    repetitions: 15,
+    repetitions: '10-12',
     muscle: "Membros inferiores"
   },
   {
-    exercise: "Extensora unilateral",
-    series: 3,
-    repetitions: 15,
+    exercise: "Panturrilha no leg horizontal",
+    series: 5,
+    repetitions: '10-12',
     muscle: "Membros inferiores"
-  },
-  {
-    exercise: "Avanço",
-    series: 3,
-    repetitions: 15,
-    muscle: "Membros inferiores"
-  },
-  {
-    exercise: "Abdomen máquina",
-    series: 4,
-    repetitions: 10,
-    muscle: "Abdomen"
-  },
-  {
-    exercise: "Oblíquo Máquina",
-    series: 4,
-    repetitions: 10,
-    muscle: "Abdomen"
-  },
-  {
-    exercise: "Prancha",
-    series: 4,
-    repetitions: '1 minuto',
-    muscle: "Abdomen"
-  },
-]
-
-export const groupC = [
-  {
-    exercise: "Crucifixo inverso",
-    series: 3,
-    repetitions: 15,
-    muscle: "Ombros"
-  },
-  {
-    exercise: "Encolhimento",
-    series: 3,
-    repetitions: 15,
-    muscle: "Ombros"
-  },
-  {
-    exercise: "Puxador Frente",
-    series: 4,
-    repetitions: 10,
-    muscle: "Dorsais"
-  },
-  {
-    exercise: "Remada baixa",
-    series: 4,
-    repetitions: 10,
-    muscle: "Dorsais"
-  },
-  {
-    exercise: "Remada articulada",
-    series: 4,
-    repetitions: 10,
-    muscle: "Dorsais"
-  },
-  {
-    exercise: "Pulldown",
-    series: 4,
-    repetitions: 10,
-    muscle: "Dorsais"
-  },
-  {
-    exercise: "Serrote",
-    series: 4,
-    repetitions: 10,
-    muscle: "Dorsais"
-  },
-  {
-    exercise: "Abdomen reto",
-    series: 0,
-    repetitions: 0,
-    muscle: "Abdomen"
-  },
-  {
-    exercise: "Abdomen infra",
-    series: 4,
-    repetitions: 10,
-    muscle: "Abdomen"
-  },
-  {
-    exercise: "Abs infra dec",
-    series: 4,
-    repetitions: 10,
-    muscle: "Abdomen"
-  }
-]
-
-export const groupD = [
-  {
-    exercise: "Triceps Corda",
-    series: 3,
-    repetitions: 15,
-    muscle: "Triceps"
-  },
-  {
-    exercise: "Barra reta",
-    series: 3,
-    repetitions: 15,
-    muscle: "Triceps"
-  },
-  {
-    exercise: "Triceps Francês",
-    series: 3,
-    repetitions: 15,
-    muscle: "Triceps"
-  },
-  {
-    exercise: "Triceps Testa",
-    series: 3,
-    repetitions: 15,
-    muscle: "Triceps"
-  },
-  {
-    exercise: "Uni inverso",
-    series: 3,
-    repetitions: 15,
-    muscle: "Triceps"
-  },
-  {
-    exercise: "Scott máquina",
-    series: 4,
-    repetitions: 10,
-    muscle: "Biceps"
-  },
-  {
-    exercise: "Bíceps barra H",
-    series: 4,
-    repetitions: 10,
-    muscle: "Biceps"
-  },
-  {
-    exercise: "Bíceps concentrado",
-    series: 4,
-    repetitions: 10,
-    muscle: "Biceps"
-  },
-  {
-    exercise: "Bíceps barra reta cross",
-    series: 4,
-    repetitions: 10,
-    muscle: "Biceps"
-  },
-  {
-    exercise: "Rosca inversa",
-    series: 4,
-    repetitions: 10,
-    muscle: "Biceps"
   }
 ]

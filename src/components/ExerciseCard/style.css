@@ -1,0 +1,7 @@
+.exercise-info {
+  display: none;
+}
+
+.exercise-info.active {
+  display: initial;
+}
