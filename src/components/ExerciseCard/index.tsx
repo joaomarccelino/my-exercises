@@ -8,9 +8,10 @@ type ExerciseCardProps = {
   repetitions: number | string;
   muscle: string;
   cardIndex: number;
+  weight: number;
 }
 
-const ExerciseCard = ({ exercise, series, repetitions, muscle, cardIndex }: ExerciseCardProps) => {
+const ExerciseCard = ({ exercise, series, repetitions, muscle, cardIndex, weight }: ExerciseCardProps) => {
   const [startExercise, setStartExercise] = useState(false);
   function showExerciseInfo() {
     const exerciseCards = document.querySelectorAll('.exercise-info');
@@ -33,7 +34,7 @@ const ExerciseCard = ({ exercise, series, repetitions, muscle, cardIndex }: Exer
         }
       })
     }
-   
+
 
   }
   const baseURL = "https://www.youtube.com/results?search_query="
@@ -41,15 +42,28 @@ const ExerciseCard = ({ exercise, series, repetitions, muscle, cardIndex }: Exer
   return (
     <div className="exercise">
       <h2>
-        <a href={`${baseURL}${encodeURIComponent(exercise)}`}>{exercise}</a>
+        <a href={`${baseURL}${encodeURIComponent(exercise)}`} target="_blank">{exercise}</a>
       </h2>
       <div className="exercise-info">
-        <p>Séries: {series}</p>
-        <p>Repetições: {repetitions}</p>
+        <div className="exercise-data">
+          <div className='info-data'>
+            <p className='info-title'>Séries</p>
+            <span className="info-amount">{series}</span>
+          </div>
+          <div className='info-data'>
+            <p className='info-title'>Repetições</p>
+            <span className="info-amount">{repetitions}</span>
+          </div>
+          <div className='info-data'>
+            <p className='info-title'>Músculo</p>
+            <span className="info-amount">{muscle}</span>
+          </div>
+          <div className='info-data'>
+            <p className='info-title'>Peso</p>
+            <span className="info-amount">{weight}kg</span>
+          </div>
+        </div>
         <StopWatch series={series} />
-        <p>Músculo: {muscle}</p>
-        <label htmlFor="weight">Peso</label>
-        <input type="number" />
       </div>
       <button className="end-btn" onClick={showExerciseInfo}>{startExercise ? "Finalizar" : "Iniciar"}</button>
     </div>

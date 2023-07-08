@@ -5,3 +5,30 @@
 .exercise-info.active {
   display: initial;
 }
+
+.exercise-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.info-data {
+  background-color: #eee;
+  border: 4px solid yellow;
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  gap: 20px;
+  width: 100px;
+}
+
+.info-title {
+  font-weight: bold;
+  color: #000;
+}
+.info-amount {
+  font-size: 1.25rem;
+}
